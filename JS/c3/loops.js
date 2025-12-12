@@ -156,5 +156,23 @@ let userNumber = prompt("Enter a number");
 while(userNumber != guessNumber) {
     userNumber = prompt("You entered wrong number. Guess again");
 }
-
 console.log("You entered correct number");
+
+// Question: For a marks list find the max, min, mean.
+
+let marks = [30, 40, 50, 60, 70, 80, 200, -3];
+
+let max = marks[0];
+let min = marks[0];
+let sum = 0;
+
+for(let i=0; i<marks.length; i++) {
+    sum+=marks[i];
+    if(marks[i] > max) max = marks[i];
+    if(marks[i] < min) min = marks[i];
+}
+
+console.log(min);
+console.log(max);
+let mean = sum / marks.length;
+console.log(mean);

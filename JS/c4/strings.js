@@ -31,3 +31,18 @@ console.log(str4.slice(1, 3)); //[1, 2] returns the removed string
 console.log(str4.substring(-2,5)); //[1, 2] returns the removed string
 
 
+// Template Literals in JS 
+// String Interpolation 
+// let x = 5;
+// let a = 3;
+// let str5 = `This is a string interpolation ${x} ${a} ${str4}`;
+// console.log(str5);
+
+// let newString = `This is called as template literal ${1+2+3}`;
+// console.log(newString);
+// console.log(typeof newString);
+
+// Escape Characters (\n,\t)
+let str6 = "Rohit\nSharma";
+console.log(str6);
+console.log(str6.length); // \n or \t -> counted as length 1

@@ -1,0 +1,25 @@
+body {
+    background-color: skyblue;
+}
+
+h4 {
+    background-color: burlywood;
+}
+
+.myHeading {
+    color: green;
+}
+
+#unique {
+    background-color: blue;
+    color: chocolate;
+}
+
+p {
+    background-color: yellow;
+    color:  black;
+}
+
+#myPara {
+    font-size: 24px;
+}
